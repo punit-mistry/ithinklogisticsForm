@@ -17,6 +17,7 @@ const Data = ref(Store.AllFormData)
         <th class="border border-black">First Name</th>
         <th  class="border border-black">Phone Number</th>
         <th  class="border border-black">Email</th>
+        <th  class="border border-black">Address</th>
         <th  class="border border-black">Date</th>
       </tr>
     </thead>
@@ -26,6 +27,7 @@ const Data = ref(Store.AllFormData)
         <td  class="border border-black">{{ res.FirstName }}</td>
         <td  class="border border-black">{{ res.PhoneNumber }}</td> 
         <td  class="border border-black">{{ res.Email }}</td>
+        <td  class="border border-black">{{ res.Address }}</td>
         <td  class="border border-black">{{ new Date(res.Data).toLocaleDateString() +'\n'+new Date(res.Data).toLocaleTimeString() }}</td>
       </tr>
     </tbody>
