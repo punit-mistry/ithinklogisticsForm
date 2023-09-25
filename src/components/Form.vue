@@ -1,5 +1,6 @@
 <script setup >
 import Navbar from './Navbar.vue';
+import FormTabel from './FormTabel.vue';
 import { ref } from 'vue';
 import {useFormData} from "../Store/index"
 const error = ref(false)
@@ -48,4 +49,9 @@ const Store = useFormData()
       </div>
     </div>
   </div>
+
+  <div>
+    <FormTabel :FormData="Store" />
+  </div>
+
 </template>
