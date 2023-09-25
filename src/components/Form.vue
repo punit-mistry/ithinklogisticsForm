@@ -34,11 +34,11 @@ const Store = useFormData()
         </div>
         <div class="mb-2">
           <label for="email" class="block"> Address</label>
-          <textarea type="email" id="email" class="border border-black h-10 p-2 rounded-lg mb-4 w-[10vw]" v-model="Store.Address" >
+          <textarea type="email" id="email" class="border border-black h-10 p-2 rounded-lg mb-4 md:w-[10vw] w-[50vw]" v-model="Store.Address" >
             </textarea>
 
         </div>
-        <button class="bg-blue-500 h-10 w-60 text-white font-bold rounded-lg hover:scale-110 transition-all mb-4 ">Submit</button>
+        <button class="bg-blue-500 h-10  md:w-60 text-white font-bold rounded-lg hover:scale-110 transition-all mb-4 ">Submit</button>
       </form>
       <div v-if="Store.error" class="flex items-center  bg-red-200 text-red-700 font-bold h-10 p-4 border border-red-600 rounded">
         Please Fill All the fields !!
