@@ -10,7 +10,7 @@
             <button class="bg-green-500 text-xs w-20 md:p-2 text-white rounded-lg">
                 <RouterLink to="/" >Goto Form</RouterLink> 
             </button>
-            <button class="bg-red-500 p-2 text-white rounded-lg">
+            <button class="bg-red-500 text-xs w-20 md:p-2 text-white rounded-lg">
                 <RouterLink to="/table" >View Data </RouterLink>
             </button>
         </div>
